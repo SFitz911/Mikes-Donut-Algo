@@ -1,0 +1,27 @@
+AI troubleshooting prompt
+=========================
+If you get stuck, copy everything between the lines below, fill in the
+[brackets], and paste it into any AI coding assistant.
+
+----------------------------------------------------------------------
+I have two custom NinjaTrader 8 indicators, FitzLabsChannel.cs and
+FitzLabsTrades.cs. FitzLabsChannel draws a price channel on the chart.
+FitzLabsTrades is a display-only indicator: it does not place orders. It
+reads trade result files from a local folder (its QueueRoot setting, which
+points to a path from the original computer) and marks those trades on the
+chart. Neither file depends on any other custom NinjaScript file.
+
+I'm installing them on a different computer's NinjaTrader 8. I copied both
+.cs files into Documents\NinjaTrader 8\bin\Custom\Indicators.
+
+My NinjaTrader 8 version: [e.g. 8.1.x.x]
+What I did: [steps you took]
+What went wrong: [describe the problem]
+Exact error message (from the NinjaScript Editor or Log tab):
+[paste the error here]
+
+Help me fix it.
+----------------------------------------------------------------------
+
+Tip: If NinjaScript Editor shows compile errors, include the file name and
+line number of each error. Errors in OTHER .cs files also block compiling.

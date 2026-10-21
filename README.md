@@ -11,4 +11,4 @@ Everything runs on one Windows PC: a NinjaTrader indicator writes 1-minute ES ba
 
 Sim accounts only. No API keys, passwords, or credentials are included.
 
-Full install steps, from unzip to first sim trade, are in [SETUP.md](SETUP.md).
+Quick steps are in [INSTALL.md](INSTALL.md); full details, from unzip to first sim trade, are in [SETUP.md](SETUP.md). If you get stuck, see AI_PROMPT.txt.
