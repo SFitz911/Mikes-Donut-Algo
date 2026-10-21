@@ -1,0 +1,6 @@
+runs/
+state/
+data/
+config/fitzsm.json
+.venv/
+__pycache__/

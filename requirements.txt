@@ -1,0 +1,4 @@
+# Runtime: Python standard library only, plus the IANA time zone database on Windows (zoneinfo has none built in).
+tzdata>=2024.1
+# Tests only:
+pytest>=8

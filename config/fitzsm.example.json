@@ -1,0 +1,18 @@
+{
+ "_note": "Copy to config\\fitzsm.json and edit. SIM only. Defaults (pending Sean's sign-off): 10 ES (full-size, front month), fixed 40-tick (10 pt, ~$5,000 at 10 ES) stop ON, 15:50 CT flatten ON. Paths: C:\\FitzLabs layout from README.md.",
+ "execution": {
+  "mode": "LIVE", "live_enabled": true,
+  "queue_dir": "C:\\FitzLabs\\data\\nt8_queue_fitzlabs",
+  "approval_file": "C:\\FitzLabs\\state\\live_approval.json",
+  "approver": "Sean Fitzgerald",
+  "not_before_ct": "2026-10-20T17:00",
+  "allow_non_sim_account_names": false
+ },
+ "feed": {"kind": "nt8_csv", "path": "C:\\FitzLabs\\data\\es_1m_live.csv", "instrument_root": "ES", "stale_after_s": 180},
+ "risk": {"quantity": 10, "fee_round_trip_usd": 5.0, "slippage_ticks_per_side": 1.0,
+          "stop_enabled": true, "stop_ticks": 40, "stop_points": null,
+          "session_flatten": true, "flatten_ct": "15:50"},
+ "accounts": [
+  {"account": "Sim101", "enabled": true, "strategy_id": "FITZLABS-SM-101", "params": {"trigger": "momentum"}}
+ ]
+}
